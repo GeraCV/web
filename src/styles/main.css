@@ -1,0 +1,27 @@
+.principal-information {
+  color: var(--principal-color-text);
+  padding: 3rem 0;
+  margin: 2rem 0 3rem 0;
+}
+
+.title {
+  font-weight: var(--w-semi-b);
+  font-size: var(--high-size);
+  display: inline-block;
+  letter-spacing: 1px;
+  overflow: hidden;
+}
+
+.text {
+  display: block;
+}
+
+.second-text {
+  color: var(--second-color-text);
+  font-weight: var(--w-regular);
+}
+
+.name {
+  margin-right: 4rem;
+}
+

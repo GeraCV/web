@@ -1,0 +1,14 @@
+.main-header {
+  display: flex;
+  justify-content: center;
+  padding: .5rem;
+}
+
+.logo {
+  width: 5.5rem;
+  opacity: .5;
+}
+
+.logo:hover {
+  opacity: .8;
+}

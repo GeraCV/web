@@ -1,0 +1,10 @@
+.social-media {
+  display: flex;
+  justify-content: center;
+}
+
+.fab {
+  margin: 0 .3rem;
+  color: var(--color-border);
+  cursor: pointer;
+}

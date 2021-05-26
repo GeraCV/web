@@ -1,0 +1,52 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+:root {
+  /* COLORS */
+  --color-border: #6F6B6B;
+  --principal-color-text : #fff;
+  --second-color-text: #0DE1EF;
+  --color-input: #2D2C2C;
+
+  /* FONTS FAMILY */
+
+  --principal-font: Cabin, sans-serif;
+  --second-font: 'Bree Serif', serif;
+  --w-regular: 500;
+  --w-semi-b: 600;
+  --w-bold: 700;
+
+  /* FONT SIZE */
+  --high-size: 26px;
+  --medium-size: 23px;
+  --normal-size: 20px;
+  --small-size: 15px;
+
+}
+
+body {
+  margin: 1rem;
+  background: #000;
+  color: #fff;
+  font-family: Cabin, sans-serif;
+  
+}
+
+
+.subtitle {
+  font-family: 'Cabin Sketch', cursive;
+  letter-spacing: .2rem;
+  color: var(--second-color-text);
+  margin-bottom: 2rem;
+}
+
+
+.information-projects {
+  font-weight: var(--w-regular);
+}
