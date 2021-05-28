@@ -23,7 +23,7 @@
   --w-bold: 700;
 
   /* FONT SIZE */
-  --high-size: 26px;
+  --high-size: 30px;
   --medium-size: 23px;
   --normal-size: 20px;
   --small-size: 15px;
@@ -44,6 +44,12 @@ body {
   letter-spacing: .2rem;
   color: var(--second-color-text);
   margin-bottom: 2rem;
+}
+
+.information {
+  letter-spacing: 1px;
+  line-height: 1.35rem;
+  /* line-height: 1.4rem; */
 }
 
 

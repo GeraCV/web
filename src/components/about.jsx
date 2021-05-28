@@ -17,6 +17,23 @@ const AboutMe = () => {
         Aunque estoy enfocado en la parte del front end,
         también tengo conocimientos en el back end.
       </p>
+      <p className="information skills">
+        Algunas de mis habilidades :
+      </p>
+      <ul className="l-skills">
+        <li className="n-skill"> JavaScript </li>
+        <li className="n-skill"> ReactJS </li>
+        <li className="n-skill"> Redux </li>
+        <li className="n-skill"> PHP </li>
+        <li className="n-skill"> SQL </li>
+        <li className="n-skill"> MySQL </li>
+        <li className="n-skill"> TypeScript </li>
+        <li className="n-skill"> HTML </li>
+        <li className="n-skill"> CSS </li>
+        <li className="n-skill"> Git </li>
+        <li className="n-skill"> NPM </li>
+
+      </ul>
     </div>
   )
 }
