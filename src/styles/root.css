@@ -23,8 +23,8 @@
   --w-bold: 700;
 
   /* FONT SIZE */
-  --high-size: 30px;
-  --medium-size: 23px;
+  --high-size: 34px;
+  --medium-size: 30px;
   --normal-size: 20px;
   --small-size: 15px;
 
@@ -44,6 +44,7 @@ body {
   letter-spacing: .2rem;
   color: var(--second-color-text);
   margin-bottom: 2rem;
+  font-size: var(--medium-size);
 }
 
 .information {

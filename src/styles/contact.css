@@ -29,7 +29,7 @@
 .btn-submit {
   width: 43%;
   margin: auto;
-  padding: .5rem;
+  padding: .5em;
   border-radius: .2rem;
   border-style: none;
   font-family: var(--principal-font);
