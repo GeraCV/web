@@ -18,11 +18,11 @@ const ContactMe = () => {
   }
 
   return (
-    <div className="contactme">
+    <div className="contactme p-section">
       <h2 className="subtitle"> Contacto </h2>
       <p className="information">
         Si te interesa mi trabajo o mis servicios,
-        mandame un correo,
+        mándame un correo,
         y en lo mas breve me pondré en contacto contigo.
       </p>
       <form action="" className="form-contact" onSubmit={sendEmail}>

@@ -1,7 +1,7 @@
 .principal-information {
   color: var(--principal-color-text);
-  padding: 3rem 0;
-  margin: 1rem 0 3rem 0;
+  padding: 7rem 0;
+  
 }
 
 .title {
@@ -21,5 +21,42 @@
   font-weight: var(--w-regular);
 }
 
+.arrow-down {
+  color: var(--color-border);
+  opacity: .2;
+  font-size: 2rem;
+}
+
+.scroll-down {
+  display: flex;
+  margin: 8rem 0;
+  justify-content: center;
+}
 
 
+@media screen and (min-width: 640px) {
+  .title {
+    font-size: var(--x-size);
+  }
+
+  .scroll-down {
+    display: none ;
+  }
+  
+  .principal-information {
+    margin: 8rem 0 8rem 0;
+  }
+
+}
+
+@media screen and (min-width: 950px) {
+  .title {
+    letter-spacing: 5px;
+    margin: 0 4rem;
+  }
+
+  .principal-information {
+    margin: 4rem 0 12rem 0;
+  }
+
+}

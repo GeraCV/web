@@ -39,3 +39,11 @@
   cursor: pointer;
   font-size: var(--small-size);
 }
+
+@media screen and (min-width: 950px) {
+  .form-contact {
+    width: 55%;
+    margin:  4rem auto;
+  }
+
+}

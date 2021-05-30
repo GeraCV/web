@@ -1,9 +1,5 @@
-.aboutme {
-  margin: 5rem 0;
-}
-
 .skills {
-  margin: 1.5rem 0;
+  margin: 2.5rem 0;
 
 }
 
@@ -19,4 +15,26 @@
   letter-spacing: 2px;
   margin: .3rem 0;
  
+}
+
+@media screen and (min-width: 950px) {
+  .aboutme {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 1.5rem; 
+  }
+
+  .section-information, .section-skills {
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .n-skill {
+    padding: .5rem 2rem;
+    margin: auto;
+    font-size: var(--normal-size);
+  }
 }

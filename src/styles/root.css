@@ -23,6 +23,7 @@
   --w-bold: 700;
 
   /* FONT SIZE */
+  --x-size: 44px;
   --high-size: 34px;
   --medium-size: 30px;
   --normal-size: 20px;
@@ -56,4 +57,32 @@ body {
 
 .information-projects {
   font-weight: var(--w-regular);
+}
+
+.p-section {
+   margin-top: 5.5rem;
+    margin-bottom: 5.5rem ;
+}
+
+@media screen and (min-width: 640px) {
+  body {
+    margin: 1.2rem;
+  }
+
+  .p-section {
+    margin-top: 8rem;
+    margin-bottom: 8rem ;
+  }
+}
+
+
+@media screen and (min-width: 950px) {
+  body {
+    margin: 1.5rem;
+  }
+
+  .information {
+  letter-spacing: 2px;
+  line-height: 1.6rem;
+  }
 }

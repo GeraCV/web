@@ -11,6 +11,9 @@ const Main = () => {
         <span className="text"> y soy</span>
         <span className="second-text"> Desarrollador Web </span>
       </h1>
+      <div className="scroll-down">
+        <i className="fas fa-long-arrow-alt-down arrow-down"></i>
+      </div>
     </div>
   )
 }

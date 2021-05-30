@@ -14,8 +14,10 @@ function App() {
       <Header />
       <Main />
       <Projects />
-      <AboutMe />
-      <ContactMe />
+      <div className="second-section">
+        <AboutMe />
+        <ContactMe />
+      </div>
       <Footer />
     </>
   );
