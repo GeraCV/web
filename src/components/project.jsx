@@ -8,8 +8,8 @@ const Project = ({ src, title, rp, rc }) => {
       </div>
       <div className="container-buttons">
         <div className="buttons">
-        <a href={rp} className="link"> Ver proyecto </a>
-        <a href={rc} className="link"> Ver código </a>
+          <a href={rp} className="link" target="_blank" rel="noreferrer"> Ver proyecto </a>
+          <a href={rc} className="link" target="_blank" rel="noreferrer"> Ver código </a>
         </div>
       </div>
     </div>

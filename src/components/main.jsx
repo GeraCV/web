@@ -2,6 +2,7 @@ import React from 'react'
 import '../styles/main.css'
 
 const Main = () => {
+
   return (
     <div className="principal-information">
       <h1 className="title">

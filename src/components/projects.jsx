@@ -1,8 +1,9 @@
 import React from 'react'
 import '../styles/projects.css'
-import netflix from '../images/netflix.svg'
-import countries from '../images/countries.svg'
-import gifs from '../images/gifs.svg'
+import netflix from '../images/netflix.png'
+import countries from '../images/countries.png'
+import gifs from '../images/gifs.png'
+import room from '../images/room.png'
 import Project from './project'
 
 
@@ -31,6 +32,11 @@ const Projects = () => {
           src={gifs} title={"gifs"}
           rp={"https://giffs-geracv.vercel.app/"}
           rc={"https://github.com/GeraCV/app-gifs"}
+        />
+        <Project
+          src={room} title={"room-home"}
+          rp={"https://room-home-geracv.vercel.app/"}
+          rc={"https://github.com/GeraCV/room-homepage"}
         />
       </div>
     </div>

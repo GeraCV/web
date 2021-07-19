@@ -104,13 +104,11 @@
 
 @media screen and (min-width: 950px) {
   .container-grid-projects {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto;
     grid-row-gap: 1.5rem;
     margin: 4rem 0;
   }
 
-  .container-project {
-    width: 60%;
-  }
+  
 }
